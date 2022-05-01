@@ -1,0 +1,56 @@
+@font-face {
+    font-family: '307DC5-bold';
+    src: url(/assets/font/307DC5_0_0.woff2);
+    src: url(/assets/font/307DC5_0_0.woff2) format("woff2");
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '307DC5-lighter';
+    src: url(/assets/font/307DC5_0_0.woff2);
+    src: url(/assets/font/307DC5_0_0.woff2) format("woff2");
+    font-weight: lighter;
+    font-display: swap;
+}
+
+:root{
+    --backgroundmain: rgb(0, 0, 0);
+    --backgroundwhite: rgb(255, 255, 255);
+}
+
+body{
+    background-color: var(--backgroundmain);
+}
+
+h2{
+font-family: '307DC5-bold';    
+}
+
+
+
+
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: var(--backgroundwhite);
+    width: 33%;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+
+.flex-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30px;
+    height: 10px;
+}
