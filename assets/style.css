@@ -14,29 +14,32 @@
     font-display: swap;
 }
 
-:root{
+:root {
     --backgroundmain: rgb(0, 0, 0);
     --backgroundwhite: rgb(255, 255, 255);
 }
 
-body{
+body {
     background-color: var(--backgroundmain);
-    font-family: '307DC5-lighter'; 
+    font-family: '307DC5-lighter';
     padding: 0;
     margin: 0;
 }
 
-h2{
-font-family: '307DC5-bold';    
+h2 {
+    font-family: '307DC5-bold';
 }
 
+.img {
+    width: 40%;
+    height: auto;
+    float: left;
+    max-width: 235px;
+}
 
-
-
-
-.flex-container{
+.flex-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     align-content: flex-start;
@@ -50,7 +53,7 @@ font-family: '307DC5-bold';
     overflow: hidden;
 }
 
-.flex-item{
+.flex-item {
     width: auto;
     height: auto;
     /*display: flex;
@@ -59,13 +62,6 @@ font-family: '307DC5-bold';
     width: 10px;
     height: auto;*/
 }
-
-
-
-
-
-
-
 
 
 /*
