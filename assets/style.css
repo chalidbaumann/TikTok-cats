@@ -89,9 +89,38 @@ h2 {
     padding: 0px;
 }
 
-.one:hover{
-    background-image: url(/img/Chalid/Selfie/20220427_080357.jpg);
+
+/*hover*/
+.box{
+    position: relative;
+    width: auto;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
 }
+
+.box:hover img{
+    opacity: 0;
+}
+
+.box:hover img.hover-img{
+    opacity: 1;
+}
+
+img{
+    width: 100%;
+    transition: all linear 0.5s;
+}
+
+img.hover-img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+/*hover end*/
+
+
 
 
 
@@ -104,7 +133,7 @@ h2 {
     flex-wrap: wrap;
     background-color: var(--backgroundwhite);
     width: 30%;
-    height: 200vh;
+    height: 600vh;
     margin: 0 auto;
     padding-top: 70px;
     /*padding-bottom: 60px;*/
