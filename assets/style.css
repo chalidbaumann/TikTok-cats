@@ -36,10 +36,10 @@ font-family: '307DC5-bold';
 
 .flex-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
-    align-content: space-between;
+    align-items: center;
+    align-content: flex-start;
     flex-wrap: wrap;
     background-color: var(--backgroundwhite);
     width: 30%;
@@ -51,7 +51,7 @@ font-family: '307DC5-bold';
 }
 
 .flex-item{
-    width: 30px;
+    width: auto;
     height: auto;
     /*display: flex;
     flex-direction: row;
