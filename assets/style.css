@@ -54,3 +54,23 @@ font-family: '307DC5-bold';
     width: 30px;
     height: 10px;
 }
+
+
+.img-fit{
+    width: 30%;
+    object-fit: cover;
+    height: 10px;
+    align-content: flex-start;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-gap: 1px;
+}
+
+.container div {
+    background-color: red;
+    aspect-ratio: 1;
+  }
