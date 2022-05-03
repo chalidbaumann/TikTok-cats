@@ -15,10 +15,6 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
-
-
-
 :root {
     --backgroundmain: rgb(0, 0, 0);
     --backgroundwhite: rgb(255, 255, 255);
@@ -31,7 +27,7 @@ body {
     margin: 0;
 }
 
-p{
+p {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -39,54 +35,49 @@ h2 {
     font-family: '307DC5-bold';
 }
 
-
-
-.navigation{
+.navigation {
     width: 30%;
     position: fixed;
     top: 0;
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 140px;
     z-index: 10002;
     margin-left: 35%;
     /*margin: 0 auto;*/
 }
 
-.navigation-footer{
+.navigation-footer {
     width: 30%;
     position: fixed;
     bottom: 0;
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 80px;
     z-index: 10003;
     margin-left: 35%;
     flex-direction: row;
     flex-wrap: nowrap;
-    /*margin: 0 auto;*/
+    margin: 0 auto;
 }
 
-.navi-item{
-  color: rgb(0, 0, 0);
-  /*margin-left: 2vw;
+.navi-item {
+    color: rgb(0, 0, 0);
+    /*margin-left: 2vw;
   margin-right: 2vw;*/
-  font-family: '307DC5-lighter';
-  font-size: 1.5vw;
-  justify-content: center;
-  align-items: center;
+    font-family: '307DC5-lighter';
+    font-size: 1.5vw;
+    justify-content: center;
+    align-items: center;
 }
 
-.navi-footer{
+.navi-footer {
     color: rgb(0, 0, 0);
     font-family: '307DC5-lighter';
     font-size: 15px;
-  }
-
-
-
+}
 
 .img {
     width: auto;
@@ -99,7 +90,8 @@ h2 {
 
 
 /*hover*/
-.box{
+
+.box {
     position: relative;
     width: auto;
     height: 200px;
@@ -107,30 +99,28 @@ h2 {
     overflow: hidden;
 }
 
-.box:hover img{
+.box:hover img {
     opacity: 0;
 }
 
-.box:hover img.hover-img{
+.box:hover img.hover-img {
     opacity: 1;
 }
 
-img{
+img {
     width: 100%;
     transition: all linear 0.5s;
 }
 
-img.hover-img{
-    position:absolute;
+img.hover-img {
+    position: absolute;
     top: 0;
     left: 0;
     opacity: 0;
 }
+
+
 /*hover end*/
-
-
-
-
 
 .flex-container {
     display: flex;
@@ -141,11 +131,13 @@ img.hover-img{
     flex-wrap: wrap;
     background-color: var(--backgroundwhite);
     width: 30%;
-    height: 600vh;
+    height: 1500vh;
     margin: 0 auto;
     padding-top: 70px;
     /*padding-bottom: 60px;*/
     overflow: hidden;
+    font-family: '307DC5-lighter';
+    font-size: 10px;
 }
 
 .flex-item {
@@ -160,15 +152,13 @@ img.hover-img{
     height: auto;*/
 }
 
-
-.imagemove{
+.imagemove {
     cursor: pointer;
 }
 
-.body-about{
+.body-about {
     background: white;
 }
-
 
 
 /*
