@@ -14,6 +14,11 @@
     font-display: swap;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+
+
 :root {
     --backgroundmain: rgb(0, 0, 0);
     --backgroundwhite: rgb(255, 255, 255);
@@ -26,6 +31,9 @@ body {
     margin: 0;
 }
 
+p{
+    font-family: 'Open Sans', sans-serif;
+}
 
 h2 {
     font-family: '307DC5-bold';
