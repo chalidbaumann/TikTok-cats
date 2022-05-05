@@ -28,8 +28,8 @@ body {
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.7vw;
+    font-family: '307DC5-lighter';
+    font-size: 1em;
 }
 
 h2 {
@@ -37,18 +37,38 @@ h2 {
 }
 
 h3 {
+    margin-top: 3px;
+    font-size: 1em;
+}
+
+#catsifindbeautiful {
     margin-left: 10px;
     margin-top: 3px;
-    font-size: 1vw;
+    font-size: 1.5em;
+}
+
+#catsineedtoseewhenimhavingabadday {
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 1.5em;
+}
+
+#catsthatcreepmeout {
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 1.5em;
 }
 
 .p {
-    font-size: 0.6vw;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
     margin-left: 10px;
-    margin-right: 100px;
+    margin-right: 10px;
     margin-top: 50px;
     text-align: justify;
 }
+
+
 
 .ptwo {
     font-size: 0.6vw;
@@ -58,10 +78,16 @@ h3 {
 }
 
 .pthree {
-    font-size: 0.6vw;
+    font-size: 1em;
     margin-left: 10px;
     margin-right: 120px;
     text-decoration: underline;
+}
+
+
+.pthree:hover{
+    cursor: pointer;
+    color: rgb(205, 205, 205);
 }
 
 ul.a {
@@ -71,11 +97,14 @@ ul.a {
 
 a {
     color: black;
+    text-decoration: none;
 }
 
 a:hover {
     color: rgb(205, 205, 205);
+    cursor: pointer;
 }
+
 
 .navigation {
     width: 30%;
@@ -110,26 +139,36 @@ a:hover {
     /*margin-left: 2vw;
   margin-right: 2vw;*/
     font-family: '307DC5-lighter';
-    font-size: 1.5vw;
+    font-size: 1em;
     justify-content: center;
     align-items: center;
     margin-left: 10px;
+    display: flex;
 }
 
 .navi-footer {
     color: rgb(0, 0, 0);
     font-family: '307DC5-lighter';
-    font-size: 1vw;
+    font-size: 1em;
     margin-left: 10px;
+    display: flex;
 }
 
+
 .img {
-    width: auto;
-    height: 200px;
     float: left;
-    max-width: 235px;
     margin: 0px;
     padding: 0px;
+}
+
+.correctionimage{
+    /*float: left;*/
+    justify-items: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    object-fit: cover;
+    transform: scale(165%);
 }
 
 
@@ -143,6 +182,8 @@ a:hover {
     overflow: hidden;
 }
 
+
+/* Bildcollage bei hover*/
 .box:hover img {
     opacity: 0;
 }
@@ -196,7 +237,7 @@ span:hover+.img-collage {
 }
 
 .flex-item {
-    width: auto;
+    width: 32%;
     height: auto;
     padding: 0;
     margin: 0;
@@ -214,6 +255,12 @@ span:hover+.img-collage {
 .body-about {
     background: white;
 }
+
+.ueberschrift{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7em;
+}
+
 
 
 /*
